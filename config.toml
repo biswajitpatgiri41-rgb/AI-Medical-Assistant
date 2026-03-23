@@ -1,0 +1,6 @@
+# .streamlit/config.toml
+[server]
+maxMessageSize = 200
+enableCORS = false
+# This prevents the websocket from closing during long AI "thinking" phases
+websocket_ping_timeout = 600
